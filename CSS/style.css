@@ -1,0 +1,204 @@
+body{
+    background-color: black;
+}
+
+.page1{
+    background-image: url(/assets/assets/main-bg.jpg);
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+    box-shadow: 0px 0px 70px 30px black inset;
+
+}
+
+.page2{
+    background-image: url(/assets/assets/the-games-bg.jpg);
+    display: flex;
+    height: 100vh;
+    background-size: cover ;
+    background-position: center;
+    align-items: center; 
+    box-shadow: 0px 0px 70px 30px black inset;   
+}
+
+.page3 {
+    background-image: url(/assets/assets/features.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.page4 {
+    background-image: url(/assets/assets/requirements.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.page5 {
+    background-image: url(/assets/assets/top-score-bg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    opacity: 50%;
+    height: 50px;
+     
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    font-size: 30px;
+    
+}
+
+.home ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.login ul {
+    list-style: none;
+    display: flex;
+}
+
+ul>li + li {
+    margin-left: 2em;
+    
+}
+
+.container1 {
+    max-width: 100%;
+    display: grid;
+    padding-top: 20vh;
+    row-gap: 2em;
+ 
+}
+
+.container2 {
+    max-width: 100%;
+    display: grid;
+    row-gap: 0.5em;
+    padding-top: 30vh; 
+    
+}
+
+
+.item{
+    text-align: center;
+
+}
+
+.item2{
+    text-align: center;
+
+}
+
+.hhh {
+    color: white;
+}
+
+.carousel-control-prev-icon{
+    background-image: url(/assets/assets/switch-left.svg);
+}
+
+.carousel-control-next-icon {
+    background-image: url(/assets/assets/switch-right.svg);
+}
+
+.carousel-control-prev{
+    left: -70px;
+}
+.carousel-control-next{
+    right: -70px;
+}
+
+.feature-list {
+    list-style: none;
+}
+
+.feature-list:before {
+    content: '';
+    background: white;
+    width: 2px;
+    height: 105px;
+    position: absolute;
+    left: 30px;
+}
+
+.feaitem > h5 {
+    color: orange;
+}
+
+.feaitem1 > h5{
+    color: orange;
+}
+
+.feaitem::before{
+    content: "";
+    background-image: url(/assets/assets/ellipse.svg);
+    position: absolute;
+    left: 22px;
+    width: 16px;
+    height: 16px;
+    
+}
+
+.feaitem1::before{
+    content: "";
+    background-image: url(/assets/assets/ellipse-outline.svg);
+    position: absolute;
+    left: 22px;
+    width: 16px;
+    height: 16px;
+    
+}
+
+.profpict{
+    width: 70px;
+    border-radius: 100%;
+    border-style:ridge;
+    background-color: orange;
+    display: inline-block;
+}
+
+.card{
+    background-color: rgb(20, 20, 20);
+    
+    border-radius: 2%;
+}
+
+.card-body h5, .card-body h6{
+    display: inline;
+}
+.card-body h6 {
+    position: relative;
+    top: 25px;
+    left: -115px;
+}
+
+.card-title{
+    color: orange;
+}
+
+.card-text{
+    color: white;
+}
+
+.card-middle {
+    margin-left: 30px;
+}
